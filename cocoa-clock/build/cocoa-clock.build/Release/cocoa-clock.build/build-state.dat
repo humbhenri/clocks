@@ -1,0 +1,439 @@
+Tcocoa-clock
+v7
+r0
+t318902271.581252
+cCheck dependencies
+cProcessInfoPlistFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Info.plist cocoa_clock-Info.plist
+cCopyStringsFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock normal x86_64
+cLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock normal i386
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock normal ppc
+cCreateUniversalBinary /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app.dSYM /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock
+cTouch /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D12B6B800000000000000EE
+t1293072056
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.h
+c000000004D4DEF040000000000000153
+t1296953092
+s339
+i<Cocoa/Cocoa.h>
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m
+c000000004D56C34600000000000009DB
+t1297531718
+s2523
+i"ClockView.h"
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/InfoPlist.strings
+c000000004D4B4180000000000000002D
+t1296777600
+s45
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib
+c000000004D4C969D000000000002CEE6
+t1296864925
+s184038
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app
+t1297209471
+s102
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app.dSYM
+t1297209471
+s102
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Info.plist
+t1296779112
+s898
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock
+t1297209471
+s64148
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/PkgInfo
+t1296779112
+s8
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1296779113
+s92
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296864927
+s34705
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/ClockView.o
+t1297209471
+s19324
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock
+t1297209471
+s19476
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock.LinkFileList
+c000000004D4B4768000000000000019D
+t1296779112
+s413
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa_clockAppDelegate.o
+t1296779152
+s15332
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/main.o
+t1296779152
+s4872
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/ClockView.o
+t1297209471
+s19892
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock
+t1297209471
+s19092
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock.LinkFileList
+c000000004D4B4768000000000000019A
+t1296779112
+s410
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa_clockAppDelegate.o
+t1296779153
+s15224
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/main.o
+t1296779153
+s4900
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/ClockView.o
+t1297209471
+s23464
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock
+t1297209471
+s16832
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock.LinkFileList
+c000000004D4B476800000000000001A3
+t1296779112
+s419
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa_clockAppDelegate.o
+t1296779150
+s21160
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/main.o
+t1296779150
+s5072
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.h
+c000000004D4B41810000000000000144
+t1296777601
+s324
+i<Cocoa/Cocoa.h>
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m
+c000000004D4B4181000000000000017D
+t1296777601
+s381
+i"cocoa_clockAppDelegate.h"
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch
+c000000004D4B41810000000000000099
+t1296777601
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m
+c000000004D4B418100000000000000FE
+t1296777601
+s254
+i<Cocoa/Cocoa.h>
+
+N/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch.gch
+t1296779145
+s52958992
+
+N/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch.gch
+t1296779149
+s52823632
+
+N/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch.gch
+t1296779144
+s55592752
+
+Ncocoa_clock-Info.plist
+c000000004D4B418000000000000003EA
+t1296777600
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318902270#318902270#0(0"0(0#1#0"8628964192#0"0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318902270.778213
+e318902271.130664
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/ClockView.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m318902270#318902271#0(0"0(0#0#64"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m8631157600#1724"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/i386 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/ClockView.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318471950.986284
+e318471952.955996
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa_clockAppDelegate.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m318471950#318471952#0(0"0(0#0#77"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m8624628000#1750"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/i386 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa_clockAppDelegate.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318471950.567775
+e318471952.953381
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/main.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m318471950#318471952#0(0"0(0#0#59"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m8624690688#1714"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/i386 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/main.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318902271.136589
+e318902271.415807
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/ClockView.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m318902271#318902271#0(0"0(0#0#64"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m8629555200#1731"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/ppc -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/ClockView.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318471953.406689
+e318471953.573003
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa_clockAppDelegate.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m318471953#318471953#0(0"0(0#0#77"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m8624503552#1757"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/ppc -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa_clockAppDelegate.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318471952.956093
+e318471953.406541
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/main.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m318471952#318471953#0(0"0(0#0#59"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m8605746208#1721"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/ppc -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/ClockView.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318902270.776847
+e318902271.044540
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/ClockView.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m318902270#318902271#0(0"0(0#0#64"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m8611687456#1730"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/x86_64 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/ClockView.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/ClockView.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa_clockAppDelegate.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318471949.683818
+e318471950.567662
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa_clockAppDelegate.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m318471949#318471950#0(0"0(0#0#77"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m8624356320#1756"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/x86_64 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clockAppDelegate.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa_clockAppDelegate.o0#
+
+CCompileC build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/main.o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318471949.682721
+e318471950.513400
+r1
+xCompileC
+xbuild/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/main.o
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m318471949#318471950#0(0"0(0#0#59"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m8621503616#1720"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/x86_64 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -include /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/main.m -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib
+s318557727.544862
+e318557728.024743
+r1
+xCompileXIB
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318557727#318557728#0(0"0(0#0#79"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib8618742976#412"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/MainMenu.nib /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318471912.832329
+e318471913.332173
+r1
+xCopyStringsFile
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318471912#318471913#0(0"0(0#0#84"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/English.lproj/InfoPlist.strings8618686208#399"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock normal "x86_64 i386 ppc"
+s318902271.450026
+e318902271.474971
+r1
+xCreateUniversalBinary
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@103"CreateUniversalBinary build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock normal "x86_64 i386 ppc"318902271#318902271#0(0"0(0#0#68"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/x86_64 i386 ppc8628811808#610"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    /usr/bin/lipo -create /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock -output /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock0#
+
+CGenerateDSYMFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app.dSYM /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock
+s318902271.475098
+e318902271.576955
+r1
+xGenerateDSYMFile
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app.dSYM
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock
+lSLF07#2@108"GenerateDSYMFile build/Release/cocoa-clock.app.dSYM build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock318902271#318902271#0(0"0(0#0#109"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock8627214432#293"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    /Developer/usr/bin/dsymutil /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/MacOS/cocoa-clock -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app.dSYM0#
+
+CLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock normal i386
+s318902271.130797
+e318902271.224733
+r1
+xLd
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock
+xnormal
+xi386
+lSLF07#2@139"Link /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock318902271#318902271#0(0"0(0#0#0"8630389184#661"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -filelist /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/i386/cocoa-clock0#
+
+CLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock normal ppc
+s318902271.415900
+e318902271.449915
+r1
+xLd
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock
+xnormal
+xppc
+lSLF07#2@138"Link /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock318902271#318902271#0(0"0(0#0#0"8628818944#658"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -filelist /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/ppc/cocoa-clock0#
+
+CLd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock normal x86_64
+s318902271.044747
+e318902271.136307
+r1
+xLd
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock
+xnormal
+xx86_64
+lSLF07#2@141"Link /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock318902271#318902271#0(0"0(0#0#0"8631651616#667"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -filelist /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/Objects-normal/x86_64/cocoa-clock0#
+
+CProcessInfoPlistFile /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Info.plist cocoa_clock-Info.plist
+s318471912.815668
+e318471912.832233
+r1
+xProcessInfoPlistFile
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Info.plist
+xcocoa_clock-Info.plist
+lSLF07#2@30"Process cocoa_clock-Info.plist318471912#318471912#0(0"0(0#0#75"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock-Info.plist8621515744#368"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    builtin-infoPlistUtility cocoa_clock-Info.plist -genpkginfo /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318471914.650879
+e318471946.379908
+r1
+xProcessPCH
+x/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch.gch
+xcocoa_clock_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile cocoa_clock_Prefix.pch318471914#318471946#0(0"0(0#0#75"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch8624447616#1606"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/x86_64 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch -o /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-aznypxvbzsckcfbcttvqkkzkwnne/cocoa_clock_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s318471945.562732
+e318471949.682520
+r1
+xProcessPCH
+x/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch.gch
+xcocoa_clock_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile cocoa_clock_Prefix.pch318471945#318471949#0(0"0(0#0#75"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch8621658240#1610"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/ppc -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch -o /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-dlfpfujckhmtjzdtowdhyqjwtwoy/cocoa_clock_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch.gch cocoa_clock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318471914.652913
+e318471945.562511
+r1
+xProcessPCH
+x/var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch.gch
+xcocoa_clock_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile cocoa_clock_Prefix.pch318471914#318471945#0(0"0(0#0#75"/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch8612987840#1602"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-generated-files.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-own-target-headers.hmap -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-all-target-headers.hmap -iquote /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/cocoa-clock-project-headers.hmap -F/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/include -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources/i386 -I/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/cocoa-clock.build/Release/cocoa-clock.build/DerivedSources -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/cocoa_clock_Prefix.pch -o /var/folders/mz/mz7ZQcBOF8maoorRrzXT5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocoa_clock_Prefix-eubyvrzriwjlduhcdhngpnkjexvn/cocoa_clock_Prefix.pch.gch0#
+
+CTouch /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app
+s318902271.577050
+e318902271.581204
+r1
+xTouch
+x/Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app
+lSLF07#2@88"Touch /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app318902271#318902271#0(0"0(0#0#0"8631597536#165"    cd /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock    /usr/bin/touch -c /Users/humbertopinheiro/Dropbox/Projetos/cocoa-clock/build/Release/cocoa-clock.app0#
+
