@@ -2,12 +2,13 @@ CC=gcc
 BIN=gtk-clock
 LIBS=`pkg-config --libs --cflags gtk+-2.0` -lm
 
-all: gtk-clock.c clockwidget.o
-	$(CC) -o $(BIN) gtk-clock.c clockwidget.o $(LIBS)
+$(BIN): gtk-clock.c clockwidget.o
+	$(CC) -o $@ $^ $(LIBS)
 
 
-clockwidget.o: clockwidget.c clockwidget.h
-	$(CC) -c -o clockwidget.o clockwidget.c $(LIBS)
+clockwidget.o: clockwidget.c 
+	$(CC) -c -o $@ $^ $(LIBS)
 
+.PHONY: clean
 clean:
 	rm -f $(BIN) *.o
