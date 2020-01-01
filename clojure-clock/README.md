@@ -1,10 +1,10 @@
 # clojure-clock
 
-FIXME: write description
+Clock written in clojure.
 
 ## Usage
 
-FIXME: write
+```clj -m main```
 
 ## License
 
