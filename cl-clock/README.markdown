@@ -5,11 +5,11 @@ Clock made with Common Lisp and Tk
 ## Usage
 
 ```
-(ql:quickload :app)
+(ql:quickload :cl-clock)
 ```
 ## Installation
 
 ```
-(pushnew (truename "/projects/app/") ql:*local-project-directories* )
+(pushnew (truename "/path-to-this-project/cl-clock/") ql:*local-project-directories* )
 (ql:register-local-projects)
 ```
