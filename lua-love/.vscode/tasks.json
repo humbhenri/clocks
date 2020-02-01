@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run",
+            "windows": {
+                "command": "C:\\Program Files\\LOVE\\love.exe",
+                "args": ["${workspaceRoot}"]
+            },
+            "linux": {
+                "command": "love $PWD",
+            },
+            "osx": {
+                "command": "open -n -a love ./",
+            },
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
