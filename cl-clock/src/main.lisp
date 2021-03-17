@@ -1,5 +1,6 @@
 (defpackage cl-clock
-  (:use :cl :ltk))
+  (:use :cl :ltk)
+  (:export :toplevel))
 (in-package :cl-clock)
 
 
@@ -55,7 +56,7 @@
 
 
 (with-ltk () (let* ((canvas (make-instance
-                             'canvas :height window-height :width window-width)))
+                             'canvas :height *window-width* :width *window-height*)))
                (bind canvas "<Configure>"
                      (lambda (evt)
                        (setq *window-width* (event-width evt))
@@ -65,4 +66,3 @@
                (force-focus canvas)
                (redraw-clock canvas)
                (process-events)))
-
