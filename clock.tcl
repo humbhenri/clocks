@@ -1,6 +1,7 @@
 # This program draws an analogical clock 
 # author: Humberto Henrique Campos Pinheiro
 # created: 18/07/13
+# Run: wish clock.tcl
 
 # configure window
 wm title . TkClock
