@@ -4,11 +4,11 @@
 
 import signal
 import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 import clockwidget
 
-gi.require_version('Gtk', '3.0')
 
 class Pygtk3ClockApplication(Gtk.Window):
     """ Draw an analogue clock in gtk3 with python
@@ -17,7 +17,7 @@ class Pygtk3ClockApplication(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="Example Clock Widget")
         self.connect("delete-event", Gtk.main_quit)
-        self.set_default_size(260, 160)
+        self.set_default_size(800, 800)
 
         self.clockwidget = clockwidget.ClockWidget()
 
