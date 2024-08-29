@@ -6,6 +6,9 @@
         SDL_QUIT = 0x100
         SCREEN_WIDTH = 1024
         SCREEN_HEIGHT = 1024
+        CENTER_X = 512
+        CENTER_Y = 512
+        CLOCK_RADIUS = 200
         SDL_WINDOWPOS_CENTERED = 0x2FFF0000
         
         extrn SDL_Init
@@ -20,7 +23,8 @@
         extrn SDL_SetRenderDrawColor
         extrn SDL_RenderClear
         extrn SDL_RenderPresent
-        extrn SDL_DestroyRenderer 
+        extrn SDL_DestroyRenderer
+        extrn SDL_RenderDrawPoint
 
         section '.data'
         title db 'SDL2 Window', 0
@@ -49,6 +53,14 @@
         mov rax, 60
         mov rdi, code
         syscall
+        }
+
+        macro draw_point x, y
+        {
+        mov edi, dword [renderer_ptr]
+        mov rsi, x
+        mov rdx, y
+        call SDL_RenderDrawPoint
         }
 
 _start:
@@ -84,13 +96,6 @@ _start:
         jl error
         mov dword [renderer_ptr], eax
 
-        ;; create surface
-        ;; mov edi, dword [window_ptr]
-        ;; call SDL_GetWindowSurface
-        ;; cmp rax, 0
-        ;; jl error
-        ;; mov dword [surface_ptr], eax
-
 render_loop:
         lea rdi, [sdl_event]        ; Load address of event struct into rdi
         call SDL_PollEvent
@@ -98,9 +103,6 @@ render_loop:
         jz no_event
         cmp dword [sdl_event], SDL_QUIT
         je quit
-
-        ;; mov rdi, 3000
-        ;; call SDL_Delay
         
 no_event:
         mov edi, dword [renderer_ptr]
@@ -110,11 +112,13 @@ no_event:
         mov r8d, 255
         call SDL_SetRenderDrawColor
         mov edi, dword [renderer_ptr]
-        call SDL_RenderClear 
+        call SDL_RenderClear
+
+        ;; present the renderer
         mov edi, dword [renderer_ptr]
         call SDL_RenderPresent 
-                                ; Delay to limit CPU usage (SDL_Delay(16) ~ 60 FPS)
-        mov rdi, 16 
+        
+        mov rdi, 16             ; FPS = 60
         call SDL_Delay
 
                                 ; Continue the loop
@@ -131,3 +135,4 @@ quit:
 error:
         write STDERR, error_msg, error_msg_len
         exit 1
+
