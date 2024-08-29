@@ -3,3 +3,5 @@ gtk-clock/gtk-clock
 gtk-clock/gtk3.o
 java-clock/build/
 java-clock/.gradle/
+/asm/clock
+/asm/*.o
