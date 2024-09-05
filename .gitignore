@@ -5,3 +5,5 @@ java-clock/build/
 java-clock/.gradle/
 /asm/clock
 /asm/*.o
+main
+**/main
