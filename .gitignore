@@ -7,3 +7,6 @@ java-clock/.gradle/
 /asm/*.o
 main
 **/main
+/x11-clock/analysis.txt
+/x11-clock/gmon.out
+/x11-clock/main_pg

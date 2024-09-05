@@ -8,6 +8,7 @@
 #define WIDTH 300
 #define HEIGHT 300
 #define MIN(x, y) ((x) < (y) ? (x) : (y))
+#define SLEEP_MS(m) (usleep((m) * 1000))
 
 void draw_circle(Display *dpy, Window win, GC gc, int xc, int yc, int radius) {
   XDrawArc(dpy, win, gc, xc - radius, yc - radius, radius * 2, radius * 2, 0, 360 * 64);
@@ -43,12 +44,35 @@ int main() {
   XSetWMProtocols(dpy, win, &wm_delete_window, 1);
 
   XSelectInput(dpy, win, ExposureMask | KeyPressMask | StructureNotifyMask);
-  while (1) {
-    time_t rawtime;
-    struct tm *timeinfo;
-    time(&rawtime);
-    timeinfo = localtime(&rawtime);
 
+  int sleep_interval = 1000;
+  int time_to_update = 0;
+  struct tm *timeinfo;
+  time_t rawtime;
+  time(&rawtime);
+  while (1) {
+    SLEEP_MS(1);
+    
+    // Check for keypress events to exit the loop
+    if (XPending(dpy)) {
+      XEvent e;
+      XNextEvent(dpy, &e);
+
+      if (e.type == ClientMessage) {
+        if (e.xclient.data.l[0] == wm_delete_window) {
+          printf("Window close event received. Exiting...\n");
+          break;
+        }
+      }
+    }
+    time_to_update = (time_to_update+1) % sleep_interval;
+    if (time_to_update != 0) {
+      continue;
+    }
+    
+    rawtime++;
+    timeinfo = localtime(&rawtime);
+    
     XWindowAttributes wa;
     XGetWindowAttributes(dpy, win, &wa);
     int width = wa.width;
@@ -70,22 +94,8 @@ int main() {
     draw_hand(dpy, win, gc, xc, yc, second_angle, clock_radius*0.9); // Second hand
     draw_hand(dpy, win, gc, xc, yc, minute_angle, clock_radius*0.75); // Minute hand
     draw_hand(dpy, win, gc, xc, yc, hour_angle, clock_radius*0.5);   // Hour hand
-    XFlush(dpy);
-        
-    sleep(16/1000); // 16 ms ~ 60 FPS
-
-    // Check for keypress events to exit the loop
-    if (XPending(dpy)) {
-      XEvent e;
-      XNextEvent(dpy, &e);
-
-      if (e.type == ClientMessage) {
-        if (e.xclient.data.l[0] == wm_delete_window) {
-          printf("Window close event received. Exiting...\n");
-          break;
-        }
-      }
-    }
+    XFlush(dpy);        
+    
   }
 
   XFreeGC(dpy, gc);
