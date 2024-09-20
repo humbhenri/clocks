@@ -1,11 +1,11 @@
-##
-# Clock
-#
-# @file
-# @version 0.1
 SRC=main.c
+CC=x86_64-w64-mingw32-gcc
+TARGET=clock.exe
+FLAGS=-municode -mwindows -lm
 
-clock.exe: $(SRC)
-	x86_64-w64-mingw32-gcc $(SRC) -o clock.exe -municode -mwindows
+$(TARGET): $(SRC)
+	$(CC) $(SRC) -o $(TARGET) $(FLAGS)
 
-# end
+.PHONY: clean
+clean:
+	rm -f $(TARGET)
