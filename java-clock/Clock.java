@@ -1,5 +1,3 @@
-package clock;
-
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -10,11 +8,11 @@ import java.awt.event.ActionListener;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class Clock extends JPanel {
-	private static final long serialVersionUID = 1L;
 	private int hoursHand;
 	private int minutesHand;
 	private int secondsHand;
@@ -25,12 +23,10 @@ public class Clock extends JPanel {
 	public Clock() {
 		super();
 		setTime();
-		Timer t = new Timer(1000, new ActionListener(){
-			public void actionPerformed(ActionEvent e) {
-				Clock.this.updateClock();
-				Clock.this.repaint();
-			}
-		});
+		Timer t = new Timer(1000, (e) -> {
+      Clock.this.updateClock();
+      Clock.this.repaint();
+    });
 		t.start();
 	}
 	
@@ -86,5 +82,16 @@ public class Clock extends JPanel {
 				hoursHand = (hoursHand + 5) % 60;
 			}
 		}
+	}
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Java Clock");
+		frame.setSize(360, 360);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Clock clock = new Clock();
+		frame.add(clock);
+		
+		frame.setVisible(true);
 	}
 }

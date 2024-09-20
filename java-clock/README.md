@@ -1,13 +1,5 @@
 # A clock made with java
 
-## Installing
-
-``` sh
-gradle build
+```sh
+java Clock.java
 ```
-
-## Running
-
-``` sh
-java -jar build/libs/clock-1.0-SNAPSHOT.jar
-``` 
