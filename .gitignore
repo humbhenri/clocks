@@ -10,3 +10,5 @@ main
 /x11-clock/analysis.txt
 /x11-clock/gmon.out
 /x11-clock/main_pg
+hy/.venv
+hy/__pycache__

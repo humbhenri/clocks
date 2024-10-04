@@ -1,0 +1,2 @@
+funcparserlib==1.0.1
+hy==1.0.0
