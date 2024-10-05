@@ -20,7 +20,21 @@
     (setv self.parent parent)
     (setv self.canvas (Canvas self :width width :height height))
     (setv [self.hour self.minute self.second] (get-time))
+    (self.on-timer)
     (self.draw))
+
+  (defn on-timer [self]
+    (self.tick)
+    (self.canvas.delete ALL)
+    (self.draw)
+    (self.after delay self.on-timer))
+
+  (defn tick [self]
+    (setv self.second (% (+ 1 self.second) 60))
+    (when (= self.second 0)
+      (setv self.minute (% (+ 1 self.minute) 60))
+      (when (= self.minute 0)
+        (setv self.hour (% (+ 1 self.hour) 12)))))
 
   (defn draw [self]
     (self.pack :fill BOTH :expand 1)
@@ -38,8 +52,7 @@
           minutex (+ centerx (* radius 0.75 (math.cos (to-radian self.minute))))
           minutey (+ centery (* radius 0.75 (math.sin (to-radian self.minute))))
           secondx (+ centerx (* radius 0.85 (math.cos (to-radian self.second))))
-          secondy (+ centery (* radius 0.85 (math.sin (to-radian self.second))))
-          ]
+          secondy (+ centery (* radius 0.85 (math.sin (to-radian self.second))))]
       (self.canvas.create_oval x0 y0 x1 y1 :outline "black" :width 2)
       (self.canvas.create_line centerx centery hourx houry :width 2 :fill "green")
       (self.canvas.create_line centerx centery minutex minutey :width 2 :fill "green")
