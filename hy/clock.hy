@@ -32,12 +32,18 @@
           y1 (+ (/ (self.winfo_height) 2) radius)
           centerx (/ (self.winfo_width) 2)
           centery (/ (self.winfo_height) 2)
-          hour-hand (* 5 12)
-          hourx (+ centerx (* 0.5 (/ radius 2) (math.cos (to-radian hour-hand))))
-          houry (+ centerx (* 0.5 (/ radius 2) (math.sin (to-radian hour-hand))))
+          hour-hand (* (% self.hour 12) 5)
+          hourx (+ centerx (* (/ radius 2) (math.cos (to-radian hour-hand))))
+          houry (+ centery (* (/ radius 2) (math.sin (to-radian hour-hand))))
+          minutex (+ centerx (* radius 0.75 (math.cos (to-radian self.minute))))
+          minutey (+ centery (* radius 0.75 (math.sin (to-radian self.minute))))
+          secondx (+ centerx (* radius 0.85 (math.cos (to-radian self.second))))
+          secondy (+ centery (* radius 0.85 (math.sin (to-radian self.second))))
           ]
       (self.canvas.create_oval x0 y0 x1 y1 :outline "black" :width 2)
       (self.canvas.create_line centerx centery hourx houry :width 2 :fill "green")
+      (self.canvas.create_line centerx centery minutex minutey :width 2 :fill "green")
+      (self.canvas.create_line centerx centery secondx secondy :width 1 :fill "red")
       (self.canvas.pack :fill BOTH :expand 1))))
 
 (defn resize [e]
