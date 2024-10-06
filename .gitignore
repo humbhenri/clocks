@@ -3,12 +3,11 @@ gtk-clock/gtk-clock
 gtk-clock/gtk3.o
 java-clock/build/
 java-clock/.gradle/
-/asm/clock
-/asm/*.o
-main
-**/main
 /x11-clock/analysis.txt
 /x11-clock/gmon.out
 /x11-clock/main_pg
 hy/.venv
 hy/__pycache__
+javafx/.project
+javafx/.settings/
+javafx/.classpath
