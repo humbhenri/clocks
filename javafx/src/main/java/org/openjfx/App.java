@@ -59,7 +59,8 @@ public class App extends Application {
 
 		radius = Bindings.createObjectBinding(() -> {
 			double minDimension = Math.min(stage.getWidth(), stage.getHeight());
-			return minDimension > 0 ? minDimension / 2 : Math.min(WIDTH, HEIGHT) / 2;
+                        if (minDimension == 0) minDimension = Math.min(WIDTH, HEIGHT);
+			return minDimension / 4;
 		}, stage.widthProperty(), stage.heightProperty());
 
 		clock = new Ellipse();
@@ -77,7 +78,6 @@ public class App extends Application {
 		var hourHandEndY = new SimpleDoubleProperty(handY(HOURS_HAND_SIZE, hoursValue));
 		hourHand.endXProperty().bind(hourHandEndX);
 		hourHand.endYProperty().bind(hourHandEndY);
-		hourHand.setStroke(Color.RED);
 		hourHand.setStroke(Color.LIGHTGREEN);
 
 		var minuteHand = new Line();
