@@ -1,5 +1,5 @@
-#include <gtk/gtk.h>
 #include <math.h>
+#include <gtk/gtk.h>
 #include <time.h>
 
 #define WIDTH 600
