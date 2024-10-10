@@ -6,21 +6,17 @@ import GI.GLib (pattern PRIORITY_DEFAULT, timeoutAdd)
 import GI.Cairo.Render.Connector (renderWithContext)
 import GI.Cairo.Render
 import Data.Time
-import Control.Monad (when)
-import Data.Maybe (isJust)
-import Data.IORef
 import Data.Text as Text
-import Data.Maybe (fromMaybe)
 
 centerW :: GTK.IsWidget widget => widget -> Render ()
 centerW widget = do
   width  <- liftIO $ GTK.widgetGetAllocatedWidth  widget
   height <- liftIO $ GTK.widgetGetAllocatedHeight widget
   let size = min width height
-  scale (fromIntegral size) (fromIntegral size)
   let w = fromIntegral width
       h = fromIntegral height
       s = fromIntegral size
+  scale s s
   translate ((w/s)/2) ((h/s)/2)
 
 drawClockBackground :: GTK.IsWidget widget => widget -> Render ()
