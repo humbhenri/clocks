@@ -8,5 +8,5 @@ nix develop
 
 ## Running
 
-Run with `cabal run`. Use `cabal build` to create a executable.
+Run with `cabal run`. Use `cabal build` to create an executable.
 
