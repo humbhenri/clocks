@@ -22,7 +22,7 @@ int main (int argc, char **argv)
 	GtkApplication *app;
 	int status;
 
-  update_time();
+        update_time();
 
 	app = gtk_application_new ("org.gtk.example", G_APPLICATION_DEFAULT_FLAGS);
 	g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
@@ -46,7 +46,7 @@ gboolean paint_clock (GtkWidget *widget, cairo_t *cr, gpointer data)
   gint height = gtk_widget_get_allocated_height(widget);
   gint center_x = width/2.0;
   gint center_y = height/2.0;
-	double radius = MIN (width / 2, height / 2) / 2;
+  double radius = MIN (width / 2, height / 2) / 2;
   GtkStyleContext *context = gtk_widget_get_style_context(widget);
   gtk_render_background(context, cr, 0, 0, width, height);
 
@@ -99,7 +99,7 @@ static void activate (GtkApplication* app, gpointer user_data)
 	drawing_area = gtk_drawing_area_new();
 	gtk_container_add (GTK_CONTAINER (window), drawing_area);
 	gtk_widget_set_size_request(drawing_area, WIDTH, HEIGHT);
-	g_signal_connect (G_OBJECT (drawing_area), "draw", 
+	g_signal_connect (G_OBJECT (drawing_area), "draw",
 		G_CALLBACK (paint_clock), NULL);
 
 	gtk_widget_show_all (window);
