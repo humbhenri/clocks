@@ -1,0 +1,4 @@
+with "gtkada.gpr";
+project Clock is
+    for Main use ("clock.adb");
+end Clock;
