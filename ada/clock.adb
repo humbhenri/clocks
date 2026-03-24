@@ -16,7 +16,7 @@ procedure Clock is
             (Window   => Main_Window,
             The_Type => Gtk.Enums.Window_Toplevel);
 
-        Gtk.Window.Set_Title (Window => Main_Window, Title  => "Clock");
+        Gtk.Window.Set_Title (Window => Main_Window, Title  => "Clock with Ada");
         Gtk.Window.Set_Default_Size(Window => Main_Window, Width => 1026, Height => 768);
 
         Main_Window.On_Destroy(Callbacks.Quit'Access);

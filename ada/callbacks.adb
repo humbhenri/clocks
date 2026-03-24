@@ -6,6 +6,9 @@ with Cairo;
 use Cairo;
 with Ada.Text_IO;
 use Ada.Text_IO;
+with glib;
+use glib;
+with Ada.Numerics;
 
 package body Callbacks is
     procedure Quit
@@ -18,17 +21,29 @@ package body Callbacks is
     function Draw (
 		canvas	: access Gtk_Widget_Record'class;
 		context	: in Cairo_Context)
-		return boolean
+		return Boolean
 	is
-		result : boolean := true;
+		result : Boolean := true;
+        width : Gint;
+        height : Gint;
+        center_x : Gdouble;
+        center_y : Gdouble;
+        radius: Gdouble;
 	begin
-		put_line ("cb_draw");
+        width := Get_Allocated_Width(canvas);
+        height := Get_Allocated_Height(canvas);
+        center_x := Gdouble(width) / 2.0;
+        center_y := Gdouble(height) / 2.0;
+        radius := Gdouble'Min(center_x, center_y) / 2.0;
 
-		set_line_width (context, 1.0);
-		set_source_rgb (context, 1.0, 0.0, 0.0);
+        Arc(context, center_x, center_y, radius, Gdouble(0), 2.0 * Ada.Numerics.PI);
+        Stroke(context);
 
-		rectangle (context, 1.0, 1.0, 100.0, 100.0);
-		stroke (context);
+		--  set_line_width (context, 1.0);
+		--  set_source_rgb (context, 1.0, 0.0, 0.0);
+		--
+		--  rectangle (context, 1.0, 1.0, 100.0, 100.0);
+		--  stroke (context);
 		
 		return result;
 	end Draw;
