@@ -1,6 +1,6 @@
 with Gtk.Main;
 
-package body Window_Callback is
+package body Callbacks is
     function Quit
         (Widget: access Gtk.Window.Gtk_Window_Record'Class)
         return Boolean
@@ -10,4 +10,4 @@ package body Window_Callback is
         Gtk.Main.Main_Quit;
         return False;
     end Quit;
-end Window_Callback;
+end Callbacks;

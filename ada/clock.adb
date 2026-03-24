@@ -2,12 +2,14 @@ with Gtk.Main;
 with Gtk.Enums;
 with Gtk.Window;
 with Gtk.Handlers;
-with Window_Callback;
+with Gtk.Drawing_Area;
+with Callbacks;
 
 procedure Clock is
 
     procedure Create_Window is
         Main_Window : Gtk.Window.Gtk_Window;
+        Canvas: Gtk.Drawing_Area.Gtk_Drawing_Area;
 
     begin
         Gtk.Window.Gtk_New
@@ -15,21 +17,20 @@ procedure Clock is
             The_Type => Gtk.Enums.Window_Toplevel);
 
         Gtk.Window.Set_Title (Window => Main_Window, Title  => "Clock");
+        Gtk.Window.Set_Default_Size(Window => Main_Window, Width => 1026, Height => 768);
 
-        Window_Callback.Window_Cb.Connect(Main_Window, "delete_event", Window_Callback.Quit'Access);
+        Callbacks.Cb.Connect(Main_Window, "delete_event", Callbacks.Quit'Access);
+
+        Gtk.Drawing_Area.Gtk_New(Canvas);
+        Main_Window.Add(Canvas);
 
         Gtk.Window.Show_All (Main_Window);
 
     end Create_Window;
 
 begin
-    --  Set the locale specific datas (e.g time and date format)
-    --  Gtk.Main.Set_Locale;
-
-    --  Initializes GtkAda
     Gtk.Main.Init;
 
-    --  Create the main window
     Create_Window;
 
     --  Signal handling loop
