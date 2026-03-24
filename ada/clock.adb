@@ -19,10 +19,11 @@ procedure Clock is
         Gtk.Window.Set_Title (Window => Main_Window, Title  => "Clock");
         Gtk.Window.Set_Default_Size(Window => Main_Window, Width => 1026, Height => 768);
 
-        Callbacks.Cb.Connect(Main_Window, "delete_event", Callbacks.Quit'Access);
+        Main_Window.On_Destroy(Callbacks.Quit'Access);
 
         Gtk.Drawing_Area.Gtk_New(Canvas);
         Main_Window.Add(Canvas);
+        Canvas.On_Draw(Callbacks.Draw'Access);
 
         Gtk.Window.Show_All (Main_Window);
 

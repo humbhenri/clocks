@@ -1,4 +1,4 @@
-clock: clock.adb clock.gpr
+clock: clock.adb clock.gpr callbacks.adb callbacks.ads
 	gprbuild -P clock.gpr
 
 clean:

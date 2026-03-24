@@ -1,11 +1,11 @@
-with Gtk.Window;
-with Gtk.Handlers;
+with Gtk.Widget;
+use Gtk.Widget;
+with Cairo;
+use Cairo;
 
 package Callbacks is 
-    package Cb is new Gtk.Handlers.Return_Callback(
-        Gtk.Window.Gtk_Window_Record, 
-        Boolean);
-    function Quit (Widget: access Gtk.Window.Gtk_Window_Record'Class) 
-        return Boolean;
+    procedure Quit (Widget: access Gtk_Widget_Record'Class);
+    function Draw (Canvas: access Gtk_Widget_Record'Class; context: in Cairo_Context)
+        return boolean;
 end Callbacks;
 
