@@ -1,15 +1,37 @@
 with Gtk.Main;
 with Gtk.Enums;
-with Gtk.Window;
+with Gtk.Window; use Gtk.Window;
 with Gtk.Handlers;
-with Gtk.Drawing_Area;
+with Gtk.Drawing_Area; use Gtk.Drawing_Area;
 with Callbacks;
+with Glib.Main; use Glib.Main;
+with Gtk.Widget; use Gtk.Widget;
 
 procedure Clock is
+    Timeout : G_Source_Id;
 
-    procedure Create_Window is
-        Main_Window : Gtk.Window.Gtk_Window;
-        Canvas: Gtk.Drawing_Area.Gtk_Drawing_Area;
+    Main_Window : Gtk_Window;
+    Canvas : Gtk_Drawing_Area;
+
+    package Gui_Timeout is new Glib.Main.Generic_Sources(Gtk_Drawing_Area);
+
+    procedure Stop_Timeout (Widget :  Access Gtk_Widget_Record'Class) is
+        pragma Unreferenced (Widget);
+    begin
+        if Timeout  /= 0 then
+            Remove  (Timeout);
+            Timeout := No_Source_Id;
+        end if;
+    end Stop_Timeout;
+
+    function Refresh(Canvas: Gtk_Drawing_Area) return Boolean is
+    begin
+        Canvas.Queue_Draw;
+        return True;
+    end Refresh;
+
+    procedure Create_Window 
+    is
 
     begin
         Gtk.Window.Gtk_New
@@ -24,7 +46,6 @@ procedure Clock is
         Gtk.Drawing_Area.Gtk_New(Canvas);
         Main_Window.Add(Canvas);
         Canvas.On_Draw(Callbacks.Draw'Access);
-
         Gtk.Window.Show_All (Main_Window);
 
     end Create_Window;
@@ -34,7 +55,10 @@ begin
 
     Create_Window;
 
-    --  Signal handling loop
+    Timeout := Gui_Timeout.Timeout_Add(1000, Refresh'Access, Canvas);
+    --  Canvas.On_Destroy(Stop_Timeout'Access);
+
+
     Gtk.Main.Main;
 
 end Clock;
