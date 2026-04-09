@@ -12,3 +12,6 @@ javafx/.project
 javafx/.settings/
 javafx/.classpath
 vala/clock
+/dlang/clock/*.so
+/dlang/clock/libraylib.so.5.5.0
+/dlang/clock/libraylib.so.550

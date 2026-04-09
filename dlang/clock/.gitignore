@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/clock
+clock.so
+clock.dylib
+clock.dll
+libclock.a
+clock.a
+clock.lib
+clock-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
